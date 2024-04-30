@@ -45,8 +45,6 @@ public class ProduitService {
         produit.setTarif(dto.getTarif());
         produit.setImage(dto.getImage());
 
-
-
         return produitRepository.save(produit);
     }
 
